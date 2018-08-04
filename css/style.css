@@ -38,6 +38,9 @@
 body * {
   font-family: "RenaultLifeLight", sans-serif; }
 
+body {
+  overflow-x: hidden; }
+
 .text-bold {
   font-family: "RenaultLifeBold", sans-serif; }
 
@@ -54,9 +57,19 @@ body * {
     position: absolute;
     top: 50px;
     left: -50px; }
+    @media screen and (max-width: 1330px) {
+      .section-1 .traficar-logo-container {
+        left: 50px; } }
+    @media screen and (max-width: 668px) {
+      .section-1 .traficar-logo-container {
+        top: 10px; } }
   .section-1 .col-top {
     margin-top: 220px;
     margin-bottom: 140px; }
+    @media screen and (max-width: 668px) {
+      .section-1 .col-top {
+        margin-top: 120px;
+        margin-bottom: 30px; } }
     .section-1 .col-top h2 {
       font-size: 48px;
       margin-bottom: 20px; }
@@ -65,6 +78,9 @@ body * {
       line-height: 1.2em; }
   .section-1 .col-bottom {
     margin-bottom: 200px; }
+    @media screen and (max-width: 668px) {
+      .section-1 .col-bottom {
+        margin-bottom: 50px; } }
   .section-1 .top-car-container {
     max-width: 600px; }
     .section-1 .top-car-container img {
@@ -80,6 +96,9 @@ body * {
   .section-2 .col-top {
     margin-bottom: 40px;
     padding: 0 55px; }
+    @media screen and (max-width: 576px) {
+      .section-2 .col-top {
+        padding: 0 15px; } }
   .section-2 .row-roadshow {
     padding-bottom: 100px; }
     .section-2 .row-roadshow h2 {
@@ -87,11 +106,26 @@ body * {
     .section-2 .row-roadshow p {
       font-size: 24px;
       line-height: 1.5em; }
+    @media screen and (max-width: 576px) {
+      .section-2 .row-roadshow {
+        padding-bottom: 40px; } }
   .section-2 .roadshow-img-container {
     position: relative;
     left: -60px; }
+    @media screen and (max-width: 1330px) {
+      .section-2 .roadshow-img-container {
+        left: 0; } }
+    @media screen and (max-width: 767px) {
+      .section-2 .roadshow-img-container {
+        padding-bottom: 75px; } }
     .section-2 .roadshow-img-container img {
       max-width: 100%; }
+  @media screen and (max-width: 1240px) {
+    .section-2 .roadshow-table-wrap {
+      padding: 0 50px; } }
+  @media screen and (max-width: 576px) {
+    .section-2 .roadshow-table-wrap {
+      padding: 0 15px; } }
   .section-2 .roadshow-table-row {
     padding: 10px 0;
     font-size: 22px;
@@ -99,13 +133,19 @@ body * {
     border-radius: 500px;
     background-color: rgba(38, 34, 98, 0.1);
     margin-bottom: 10px; }
+    @media screen and (max-width: 576px) {
+      .section-2 .roadshow-table-row {
+        padding: 5px 0; } }
     .section-2 .roadshow-table-row div:first-of-type {
       border-right: 2px solid #262262; }
+      @media screen and (max-width: 576px) {
+        .section-2 .roadshow-table-row div:first-of-type {
+          border: none; } }
     .section-2 .roadshow-table-row--light {
       background-color: rgba(255, 255, 255, 0.1);
       border-color: #fff; }
       .section-2 .roadshow-table-row--light div:first-of-type {
-        border-right: 2px solid #fff; }
+        border-color: #fff; }
 
 .section-3 {
   background-color: #fff; }
@@ -113,6 +153,9 @@ body * {
     max-width: 1200px; }
   .section-3 .row-video {
     padding-top: 125px; }
+    @media screen and (max-width: 1200px) {
+      .section-3 .row-video {
+        padding-top: 60px; } }
     .section-3 .row-video h2 {
       max-width: 810px;
       color: #3cb6ce;
@@ -127,12 +170,18 @@ body * {
       margin-bottom: 50px; }
     .section-3 .row-video .col-bottom {
       padding-bottom: 140px; }
+      @media screen and (max-width: 992px) {
+        .section-3 .row-video .col-bottom {
+          padding-bottom: 90px; } }
 
 .section-4 {
   background: #fff url("../img/bg_3.jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
   padding-top: 100px; }
+  @media screen and (max-width: 576px) {
+    .section-4 {
+      padding-top: 40px; } }
   .section-4 .embed-responsive {
     max-width: 1250px; }
   .section-4 .row-panorama h2 {
@@ -143,8 +192,14 @@ body * {
     max-width: 1050px; }
   .section-4 .row-panorama .col-top {
     margin-bottom: 80px; }
+    @media screen and (max-width: 576px) {
+      .section-4 .row-panorama .col-top {
+        margin-bottom: 40px; } }
   .section-4 .row-panorama .col-bottom {
     padding-bottom: 125px; }
+    @media screen and (max-width: 576px) {
+      .section-4 .row-panorama .col-bottom {
+        padding-bottom: 50px; } }
 
 .section-5 .container-fluid {
   max-width: 1200px; }
@@ -152,6 +207,10 @@ body * {
 .section-5 .row-zoe .col-top {
   padding-top: 90px;
   margin-bottom: 70px; }
+  @media screen and (max-width: 576px) {
+    .section-5 .row-zoe .col-top {
+      padding-top: 40px;
+      margin-bottom: 30px; } }
 
 .section-5 .row-zoe .col-bottom {
   margin-bottom: 80px; }
@@ -167,9 +226,15 @@ body * {
 
 .section-5 .point-container {
   padding: 0 15px; }
+  @media screen and (max-width: 767px) {
+    .section-5 .point-container {
+      padding: 0 50px; } }
+  @media screen and (max-width: 576px) {
+    .section-5 .point-container {
+      padding: 0 20px; } }
   .section-5 .point-container p {
     font-size: 30px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     margin-top: 25px; }
   .section-5 .point-container ul {
     list-style: none; }
@@ -177,6 +242,9 @@ body * {
     font-size: 24px;
     line-height: 1.5em;
     margin-bottom: 0.25em; }
+    @media screen and (max-width: 767px) {
+      .section-5 .point-container li {
+        font-size: 19px; } }
     .section-5 .point-container li:before {
       content: "•";
       color: #999999;
@@ -195,6 +263,12 @@ body * {
   color: #fff;
   padding-top: 80px;
   padding-bottom: 240px; }
+  @media screen and (max-width: 767px) {
+    .section-6 {
+      padding-top: 120px; } }
+  @media screen and (max-width: 580px) {
+    .section-6 {
+      padding-bottom: 140px; } }
   .section-6 .container-fluid .inner-wrap {
     position: relative;
     max-width: 1640px;
@@ -204,12 +278,25 @@ body * {
       font-size: 69px;
       margin-bottom: 0;
       line-height: 0.7em; }
+      @media screen and (max-width: 435px) {
+        .section-6 .container-fluid .inner-wrap h3 {
+          font-size: 45px; } }
     .section-6 .container-fluid .inner-wrap .top-line {
       font-size: 49px;
       margin-bottom: 5px; }
+      @media screen and (max-width: 480px) {
+        .section-6 .container-fluid .inner-wrap .top-line {
+          font-size: 28px;
+          line-height: 1.2em;
+          margin-top: 10px; } }
     .section-6 .container-fluid .inner-wrap .bottom-line {
       font-size: 37px;
       margin-bottom: 40px; }
+      @media screen and (max-width: 480px) {
+        .section-6 .container-fluid .inner-wrap .bottom-line {
+          font-size: 28px;
+          line-height: 1.2em;
+          margin-top: 10px; } }
     .section-6 .container-fluid .inner-wrap .check-button {
       color: #000;
       display: inline-block;
@@ -235,6 +322,10 @@ body * {
       position: absolute;
       right: 40px;
       top: -15px; }
+      @media screen and (max-width: 767px) {
+        .section-6 .container-fluid .inner-wrap .renault-logo-wrap {
+          right: -5px;
+          top: -92px; } }
 
 footer .container-footer-top {
   background-color: #41464d; }
@@ -244,11 +335,45 @@ footer .container-footer-top {
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px; }
+    footer .container-footer-top .row-app .col-social {
+      text-align: right; }
+      @media screen and (max-width: 1200px) {
+        footer .container-footer-top .row-app .col-social {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          -ms-flex-align: end;
+          align-items: flex-end; } }
+      @media screen and (max-width: 992px) {
+        footer .container-footer-top .row-app .col-social {
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          margin-top: 50px; } }
+      @media screen and (max-width: 620px) {
+        footer .container-footer-top .row-app .col-social {
+          -ms-flex-pack: center;
+          justify-content: center;
+          padding-bottom: 3px; } }
+    @media screen and (max-width: 620px) {
+      footer .container-footer-top .row-app .col-app {
+        text-align: center; } }
   footer .container-footer-top .download-text {
     color: #21ceba;
     font-family: 'ProximaNova', sans-serif;
     font-size: 21px;
-    margin-right: 35px; }
+    margin-right: 35px;
+    display: inline-block; }
+    @media screen and (max-width: 1200px) {
+      footer .container-footer-top .download-text {
+        display: block; } }
+    @media screen and (max-width: 992px) {
+      footer .container-footer-top .download-text {
+        display: inline-block; } }
+    @media screen and (max-width: 620px) {
+      footer .container-footer-top .download-text {
+        display: block;
+        margin-right: 0; } }
   footer .container-footer-top .app-logo-wrap {
     border: 2px solid #6b6f75;
     border-radius: 500px;
@@ -256,12 +381,19 @@ footer .container-footer-top {
     max-width: 160px; }
     footer .container-footer-top .app-logo-wrap img {
       max-width: 100%; }
+    @media screen and (max-width: 420px) {
+      footer .container-footer-top .app-logo-wrap {
+        max-width: 120px; } }
   footer .container-footer-top .social-icon-wrap {
     max-width: 49px;
     max-height: 49px;
     margin-right: 10px; }
     footer .container-footer-top .social-icon-wrap img {
       max-width: 100%; }
+    @media screen and (max-width: 400px) {
+      footer .container-footer-top .social-icon-wrap {
+        max-width: 35px;
+        max-height: 35px; } }
   footer .container-footer-top .row-menu {
     padding-top: 50px;
     padding-bottom: 30px; }
@@ -274,11 +406,22 @@ footer .container-footer-top {
           display: inline-block;
           border-right: 2px solid #21ceba;
           padding: 0 25px; }
+          @media screen and (max-width: 1440px) {
+            footer .container-footer-top .row-menu .footer-menu-wrap .footer-menu li {
+              padding: 0 15px; } }
+          @media screen and (max-width: 1240px) {
+            footer .container-footer-top .row-menu .footer-menu-wrap .footer-menu li {
+              padding: 0 7px;
+              margin-bottom: 20px; } }
           footer .container-footer-top .row-menu .footer-menu-wrap .footer-menu li:last-child {
             border: none; }
           footer .container-footer-top .row-menu .footer-menu-wrap .footer-menu li a {
             color: #fff;
-            font-family: 'ProximaNova', sans-serif; }
+            font-family: 'ProximaNova', sans-serif;
+            transition: all 0.25s ease-in-out; }
+            footer .container-footer-top .row-menu .footer-menu-wrap .footer-menu li a:hover {
+              text-decoration: none;
+              color: #22D7BE; }
 
 footer .container-fluid-bottom {
   font-family: 'ProximaNova', sans-serif;
@@ -295,10 +438,26 @@ footer .container-fluid-bottom {
     footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom {
       -ms-flex-pack: justify;
       justify-content: space-between; }
-      footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul {
-        list-style: none; }
-        footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li {
-          display: inline-block;
-          padding-right: 40px; }
-          footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li a {
-            color: #fff; }
+      footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap {
+        display: inline-block; }
+        @media screen and (max-width: 841px) {
+          footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap {
+            display: block; } }
+        footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul {
+          list-style: none; }
+          @media screen and (max-width: 841px) {
+            footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul {
+              padding: 0; } }
+          footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li {
+            display: inline-block;
+            padding-right: 40px; }
+            @media screen and (max-width: 520px) {
+              footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li {
+                display: block;
+                margin-bottom: 20px; } }
+            footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li a {
+              color: #fff;
+              transition: all 0.25s ease-in-out; }
+              footer .container-fluid-bottom .footer-bottom-inner-wrap .row-footer-bottom .cookies-wrap ul li a:hover {
+                text-decoration: none;
+                color: #22D7BE; }
